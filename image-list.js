@@ -10,7 +10,7 @@ var Gallery = { 'images' : [
   },
 
   {
-    'name'  : 'Snow Troopers test',
+    'name'  : 'Snow Troopers',
     'alt' : 'Two lego solders in white outfits walking across an icy plain',
     'url': 'gallery/snowTroopers.jpg',
     'credit': '<a href="https://www.flickr.com/photos/legofenris/">legOfenris</a>, published under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Attribution-NonCommercial-NoDerivs 2.0 Generic</a> license.'
