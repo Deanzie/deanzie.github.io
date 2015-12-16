@@ -20,7 +20,7 @@ self.addEventListener( "install", function ( event ) {
                     "/",
                     "/index.html",
                     "/503.html",
-                    "/holiday.html",
+                    "/index.html",
                     "/css/main.css"
                 ] );
             } )
