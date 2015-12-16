@@ -21,10 +21,7 @@ self.addEventListener( "install", function ( event ) {
                     "/index.html",
                     "/503.html",
                     "/holiday.html",
-                    "/css/main.css",
-                    "/images/logo-white.svg",
-                    "/images/case-study-crain-home_1x.png",
-                    "/images/heroes/hero-careers-bg.png"
+                    "/css/main.css"
                 ] );
             } )
             .then( function () {
