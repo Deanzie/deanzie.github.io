@@ -3,10 +3,17 @@
 ##OVERVIEW
 
 ###Document Purpose
+<<<<<<< HEAD
 The purpose of this document is to provide a condensed introduction on service workers ( SW ), outline the SW [demo](https://deanzie.github.io/) ( slightly modified from [CSS-Tricks](https://css-tricks.com/serviceworker-for-offline/) ) and provide a review the good and bad of SWs. [Links](https://github.com/Deanzie/deanzie.github.io/tree/master#resources) have been provided to tutorials and more in-depth documentation, below.
 
 ###Definition
 Service workers play a huge part in offline first websites and applications. It is an event-driven API that lives inside of the browser, which sits between your web pages and your application servers. You can think of them similar to a ( caching ) proxy server. A developer can then intercept network requests and control what content is displayed by serving assets from cache, when network resources are not available. This is great because it will allow us to provide a much better experience when the internet breaks.
+=======
+The purpose of this document is to provide a quick introduction on service workers ( SW ), outline the service worker demo and provide a review of their pros and cons. Links have been provided to tutorials and more in-depth documentation.
+
+###Definition
+Service worker is an event-driven API that lives inside of the browser. It sits between your web pages and your application servers. You can think of them similar to a proxy server, something that intercepts network requests and allows developers to provide different experiences, depending on the status of network connectivity. It is a great way to enhance the offline experience for users. You can see other use cases [here](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API#Other_use_case_ideas).
+>>>>>>> b6f4b2c01664e3245122d628dfcf2c4ee77f768e
 
 ###Secure Connection
 The spec for SWs recommends that they SHOULD be implemented over HTTPS-only. My experience shows me that SWs will work over a non-secure network connection locally, but not over an internet connection. [Github.io](https://pages.github.com/) pages supports HTTPS and was mentioned in multiple resources, as a good place to host dev projects.
