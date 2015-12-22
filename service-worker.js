@@ -21,7 +21,8 @@ self.addEventListener( "install", function ( event ) {
                     "/index.html",
                     "/503.html",
                     "/index.html",
-                    "/css/main.css"
+                    "/css/main.css",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIdWwvNhqQZbQiZJV79heK3Gw76AInEf41choLsTbT6YXUe46"
                 ] );
             } )
             .then( function () {
