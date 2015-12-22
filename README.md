@@ -3,7 +3,7 @@
 ##OVERVIEW
 
 ###Document Purpose
-The purpose of this document is to provide a quick introduction on service workers ( SW ), walk through a scenario with the SW [demo](https://deanzie.github.io/) ( slightly modified from [CSS-Tricks article](https://css-tricks.com/serviceworker-for-offline/) ) and provide a review the good and bad of SWs.
+The purpose of this document is to provide a quick introduction to service workers ( SW ), walk through a scenario with a slightly modified version of Nicolas Bevacqua's SW [demo](https://deanzie.github.io/) ( from [CSS-Tricks article](https://css-tricks.com/serviceworker-for-offline/) ) and provide a review the good and bad of SWs. I found several great tutorials and instead of trying to reinvent the wheel, I thought it would be best to summarize the most useful information from the articles and provide my opinion of their their usage.
 
 ###Definition
 Service workers play a huge part in [offline first]( http://offlinefirst.org/ ) websites and applications. It is an event-driven API that lives inside of the browser. It sits between your web pages and your application servers. You can think of them similar to a ( caching ) proxy server. A developer can use them to intercept network requests and control what content is displayed by serving assets from cache, when network resources are not available. So instead of seeing a browser with an error message, the user will be able to navigate content controlled by the developer. This is great because it will allow us to provide a much better experience to users when the network resources are not available.
