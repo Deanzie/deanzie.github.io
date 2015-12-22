@@ -31,7 +31,7 @@ The location where your service-worker.js file is located matters! Given this ex
 ###Champions and Leaders
 I found the Nicolas Bevacqua ( of [PonyFoo]( https://ponyfoo.com/ ), they also have more articles on SWs ), David Walsh, Jake Archibald and [Matt Gaunt]( http://www.html5rocks.com/en/tutorials/service-worker/introduction/ ) to be the most active people writing about and working with service workers. It gives me confidence to know that three of the SW evangelists mentioned work for either Google or Mozilla - hopefully they have some influence or impact with speeding up browser support. Especially since those two companies are responsible for two of the more commonly used browsers.
 
-Jake Archibald wrote a really nice article on [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync), which works with SWs to send requests to the server. I plan on writing up another article about Background Sync ( out of this document's scope ), to further explore the potential of offline experiences.
+Jake Archibald wrote a really nice article on [background Sync](https://developers.google.com/web/updates/2015/12/background-sync), which works with SWs to send requests to the server. I plan on writing up another article about Background Sync ( out of this document's scope ), to further explore the potential of offline experiences.
 
 
 ##THE DEMO
